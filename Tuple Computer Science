@@ -1,0 +1,15 @@
+print("Name: Wayne")
+print("Age:", 21)
+print("Subject: Computer Science")
+print("Gpa:", 3.8)
+
+scores = (88, 76, 90, 85, 93, 76, 90, 88, 92)
+
+max = max(scores)
+low = min(scores)
+count = scores.count(90)
+average = round(sum(scored)/len(scored),2)
+
+set = set(scores)
+set = sorted(set)
+top_3 = set[3:]
